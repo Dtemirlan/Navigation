@@ -15,7 +15,7 @@ const Navbar = () => (
                 <span className="navbar-toggler-icon"></span>
             </button>
             <div className="collapse navbar-collapse" id="navbarNav">
-                <ul className="navbar-nav ms-auto"> {/* ms-auto для выравнивания элементов справа */}
+                <ul className="navbar-nav ms-auto">
                     <li className="nav-item">
                         <NavLink to="/" className="nav-link">
                             Home
@@ -29,6 +29,11 @@ const Navbar = () => (
                     <li className="nav-item">
                         <NavLink to="/contacts" className="nav-link">
                             Contacts
+                        </NavLink>
+                    </li>
+                    <li className="nav-item">
+                        <NavLink to="/portfolio" className="nav-link">
+                            Portfolio
                         </NavLink>
                     </li>
                 </ul>
